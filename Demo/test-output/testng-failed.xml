@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="ZephryDemo.SeleniumGridTest2">
+        <methods>
+          <include name="runChrome"/>
+        </methods>
+      </class> <!-- ZephryDemo.SeleniumGridTest2 -->
+      <class name="ZephryDemo.SeleniumGridTest1">
+        <methods>
+          <include name="runFirefox"/>
+        </methods>
+      </class> <!-- ZephryDemo.SeleniumGridTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10361" started-at="2017-04-19T15:18:51Z" finished-at="2017-04-19T15:19:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10361" started-at="2017-04-19T15:18:51Z" finished-at="2017-04-19T15:19:01Z">
+      <class name="ZephryDemo.SeleniumGridTest2">
+        <test-method status="PASS" signature="runChrome()[pri:0, instance:ZephryDemo.SeleniumGridTest2@32e6e9c3]" name="runChrome" duration-ms="10351" started-at="2017-04-19T10:18:51Z" finished-at="2017-04-19T10:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runChrome -->
+      </class> <!-- ZephryDemo.SeleniumGridTest2 -->
+      <class name="ZephryDemo.SeleniumGridTest1">
+        <test-method status="PASS" signature="runFirefox()[pri:0, instance:ZephryDemo.SeleniumGridTest1@2669b199]" name="runFirefox" duration-ms="3689" started-at="2017-04-19T10:18:51Z" finished-at="2017-04-19T10:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFirefox -->
+      </class> <!-- ZephryDemo.SeleniumGridTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
