@@ -12,7 +12,7 @@ public class iphoneTC {
 	{
 		DesiredCapabilities caps=new DesiredCapabilities();
 		caps.setCapability("browserName", "iPhone");
-		caps.setCapability("device","iPhone 5");
+		caps.setCapability("device","iPhone 6");
 		caps.setPlatform(Platform.MAC);
 		//WebDriver driver=new RemoteWebDriver(new URL(URL),caps);
 				

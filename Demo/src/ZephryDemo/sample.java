@@ -16,6 +16,6 @@ public void tc_01() throws MalformedURLException
 	URL url=new URL("http://localhost:4444/wd/hub");
 	WebDriver driver=new RemoteWebDriver(url,cap);
 	driver.get("http://newtours.demouat.com");
-	System.out.println("Page1"+ driver.getTitle());
+	System.out.println("Page2"+ driver.getTitle());
 }
 }
